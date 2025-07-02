@@ -1013,7 +1013,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """الدالة الرئيسية لتشغيل البوت"""
     # الحصول على التوكن من متغيرات البيئة
-    TOKEN = os.environ.get("TOKEN")
+    TOKEN = "7780237024:AAFDPz7eqZO2GqgNsBxEwCJt82JGIZQWFXU"
 
     if not TOKEN:
         logger.error("لم يتم العثور على TOKEN في متغيرات البيئة!")
@@ -1083,3 +1083,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
